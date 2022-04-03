@@ -1,0 +1,87 @@
+.hearder {
+  position: static;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+}
+
+.header-bar {
+  padding: 1em;
+  box-shadow: 0px 0px 0px -3px rgb(0 0 0 / 10%), 0px 1px 2px 1px rgb(0 0 0 / 10%), 0px 1px 1px 3px rgb(0 0 0 / 10%);
+  background: #2d37a5;
+  height: 2em;
+}
+
+.header-title {
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.p-1 {
+  padding: 1em;
+}
+
+.no-record {
+  text-align: center;
+  padding: 1em;
+}
+
+.card {
+  box-shadow: 0 4px 7px 0 rgb(0 0 0 / 15%);
+  padding: 1em;
+  background-color: #fff;
+}
+
+.card-header {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+.a-tag {
+  color: #2196f3;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.red-text {
+  color: red;
+}
+
+.pl-1 {
+  padding-left: 1em;
+}
