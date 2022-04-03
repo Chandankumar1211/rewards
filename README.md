@@ -1,5 +1,5 @@
 # Prerequisites
-- Node should be install (v > = 14)
+- Node should be installed (v > = 14)
 
 ## Available Scripts (Frontend)
 
