@@ -24,7 +24,13 @@ In the project directory, you can run:
 ### `Press F5`
 - Run the server in development mode
 
-
+# Technology
+- It required following technology to work properly:
+## Frontend
+    - [**ReactJS**] (v 18.0.0) used for web interface
+## Backend
+    - [**NodeJs**] - (v 14.17.5)
+    - [**Express**] - (v 4.17.3) used to create server and API
 # Features!
 
 * [**Customer Details**] :  It displays list of Customer with some details.
