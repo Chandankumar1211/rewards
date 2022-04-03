@@ -50,4 +50,4 @@ const Users = () => {
     )
 }
 
-export default Header({ title: "Customer Detail" })(memo(Users));
+export default Header({ title: "Customer Details" })(memo(Users));

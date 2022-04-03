@@ -85,3 +85,9 @@ tr:nth-child(even) {
 .pl-1 {
   padding-left: 1em;
 }
+
+.back-btn {
+  padding-bottom: 0.75em;
+  cursor: pointer;
+  height: 1.75em;
+}

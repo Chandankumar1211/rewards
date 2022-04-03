@@ -1,10 +1,12 @@
 import React, { memo, useEffect, useState } from "react";
 import Header from "../../Components/Header";
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { apis, request } from "../../HttpUtil";
+import backImage from '../../arrow-left.svg';
 
 const UserDetail = () => {
     let params = useParams();
+    const navigate = useNavigate();
     const [user, setUser] = useState({ transaction: [] });
 
     useEffect(() => {
@@ -17,9 +19,9 @@ const UserDetail = () => {
             setUser(response.data);
         }
     }
-    return (
+    return (<>
+        <img src={backImage} className="back-btn" onClick={() => navigate(-1)}></img>
         <div class="card">
-
             <div className="full-width d-flex card-header">
                 <div className="half-width">
                     {user.firstName} {user.lastName}
@@ -33,7 +35,7 @@ const UserDetail = () => {
                 <thead>
                     <tr>
                         <th>Transaction Date</th>
-                        <th>Billing Amount </th>
+                        <th>Billing Amount ($)</th>
                         <th>Reward Points</th>
                         <th>Expiry Date</th>
                     </tr>
@@ -58,6 +60,7 @@ const UserDetail = () => {
                 !(user && user.transaction && user.transaction.length) && <div className="no-record">No Records</div>
             }
         </div>
+    </>
     )
 }
 
