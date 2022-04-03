@@ -19,7 +19,7 @@ In the project directory, you can run:
 - install required packages
 
 ### `npm start`
-- Start the server on 5000 port
+- Start the server on http://localhost:5000 port
 
 ### `Press F5`
 - Run the server in development mode

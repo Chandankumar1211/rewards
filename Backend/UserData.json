@@ -76,6 +76,13 @@
                     "type": "debit",
                     "expiryDate": "07/28/2022",
                     "createdDate": "03/22/2022"
+                },
+                {
+                    "id": 28,
+                    "amount": 128,
+                    "type": "debit",
+                    "expiryDate": "03/28/2022",
+                    "createdDate": "01/29/2022"
                 }
             ],
             "pointAvailable": 0
